@@ -1,8 +1,8 @@
 streamlit
 streamlit-webrtc
 deepface==0.0.80
-opencv-python-headless==4.8.1.78 # <-- 이 줄을 특정 버전으로 변경
-numpy
+opencv-python-headless==4.9.0.84
+numpy<2              # <-- 이 줄을 numpy<2 로 변경합니다.
 av
 tensorflow==2.19.0
 # keras==2.15.0 # 이 줄은 그대로 주석 처리합니다.
