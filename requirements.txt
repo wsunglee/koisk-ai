@@ -4,3 +4,4 @@ deepface
 opencv-python-headless
 numpy
 av
+tensorflow
