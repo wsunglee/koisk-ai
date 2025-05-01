@@ -1,8 +1,8 @@
 streamlit
 streamlit-webrtc
-deepface==0.0.80     # deepface 버전은 그대로 둡니다.
-opencv-python-headless
+deepface==0.0.80
+opencv-python-headless==4.8.1.78 # <-- 이 줄을 특정 버전으로 변경
 numpy
 av
-tensorflow==2.19.0   # <-- 이 줄을 설치 가능한 버전 (로그에서 확인)으로 변경
-# keras==2.15.0      # <-- 이 줄은 제거하거나 앞에 # 을 붙여 주석 처리
+tensorflow==2.19.0
+# keras==2.15.0 # 이 줄은 그대로 주석 처리합니다.
